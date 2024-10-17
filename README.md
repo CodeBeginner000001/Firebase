@@ -1,6 +1,8 @@
 # Firebase and Webpack Setup
 
-![Google Firebase](https://firebase.google.com/images/brand-guidelines/logo-logomark.png)
+<p align="center">
+  <img src="https://firebase.google.com/images/brand-guidelines/logo-logomark.png" alt="Google Firebase Logo" />
+</p>
 
 Firebase is a platform that provides Backend-as-a-Service (BaaS), enabling developers to build applications without managing backend infrastructure. It offers services like real-time databases, user authentication, cloud storage, and hosting. Below are some key benefits of using Firebase:
 
@@ -12,19 +14,20 @@ Firebase is a platform that provides Backend-as-a-Service (BaaS), enabling devel
 ---
 
 ## Table of Contents
-- Installation
-- Webpack Configuration
-- Project Structure
-- Node Modules Installation
-- Firebase Features
-  - Realtime Collection of Data
-  - Firebase Queries
-  - Ordering Data and Timestamps
-  - Fetching Single Document
-  - Setting up Firebase Auth
-  - Login and Logout
-  - Subscribing and Unsubscribing
-- Net Ninja Firebase Playlist
+
+- [Installation](#installation)
+- [Webpack Configuration](#webpack-configuration)
+- [Project Structure](#project-structure)
+- [Node Modules Installation](#node-modules-installation)
+- [Firebase Features](#firebase-features)
+  - [Realtime Collection of Data](#realtime-collection-of-data)
+  - [Firebase Queries](#firebase-queries)
+  - [Ordering Data and Timestamps](#ordering-data-and-timestamps)
+  - [Fetching Single Document](#fetching-single-document)
+  - [Setting up Firebase Auth](#setting-up-firebase-auth)
+  - [Login and Logout](#login-and-logout)
+  - [Subscribing and Unsubscribing](#subscribing-and-unsubscribing)
+- [Net Ninja Firebase Playlist](#net-ninja-firebase-playlist)
 
 ---
 
@@ -106,24 +109,31 @@ This command installs the dependencies listed in the `package.json` file for tha
 ## Firebase Features
 
 ### Realtime Collection of Data
+
 Firebase allows real-time syncing and retrieving of data from the Firestore database. Any changes in the database are immediately reflected on the client side.
 
 ### Firebase Queries
+
 Firebase allows the creation of complex queries to fetch specific data, enabling efficient data filtering and sorting.
 
 ### Ordering Data and Timestamps
+
 Firebase allows data to be ordered based on specific fields, and automatically adds timestamps to track when data is created or modified.
 
 ### Fetching Single Document
+
 You can fetch an individual document from Firestore by referencing the document’s ID, which allows fast access to specific records.
 
 ### Setting up Firebase Auth
+
 Firebase Authentication enables developers to easily add authentication to their applications, supporting email/password as well as third-party providers like Google and Facebook.
 
 ### Login and Logout
+
 Firebase provides methods to log in and log out users, simplifying user management.
 
 ### Subscribing and Unsubscribing
+
 Firebase allows you to subscribe to real-time updates from Firestore collections and documents, and you can unsubscribe when these updates are no longer needed.
 
 ---
@@ -138,3 +148,7 @@ This series covers everything from setting up Firebase to advanced functionaliti
 - Complex querying
 - Authentication and user management
 - Subscription to real-time data
+
+---
+
+Now the Table of Contents links directly to sections of the README file.
