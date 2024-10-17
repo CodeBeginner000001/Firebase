@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+</head>
+<body>
+    <h1>Getting Started with Firebase 9</h1>
+    <h2>Firebase Firestore</h2>
+    <form class="add">
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required>
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author" required>
+
+        <button>Add a new book</button>
+    </form>
+    <br>
+    <form class="delete">
+        <label for="deleteID">Document ID:</label>
+        <input type="text" name="id" id="deleteID" required>
+
+        <button>Delete a Book</button>
+    </form>
+    <br>
+    <form class="update">
+        <label for="id">Document ID:</label>
+        <input type="text" name="id" id="id" required>
+         <button> Update a Book</button>
+    </form>
+    <br>
+
+    <h2>Firebase Auth</h2>
+    <form class="signup">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required autocomplete="off">
+        <button>Sign Up</button>
+    </form>
+    <br>
+    <form class="login">
+        <label for="loginemail">Email:</label>
+        <input type="email" name="email" id="loginemail" required>
+        <label for="loginpassword">Password:</label>
+        <input type="password" name="password" id="loginpassword" required autocomplete="off">
+        <button class="login">LogIn</button>
+    </form>
+    <br>
+    <button class="logout">LogOut</button>
+    
+    
+    <script src="./bundle.js"></script>
+</body>
+</html>

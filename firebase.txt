@@ -1,0 +1,8 @@
+1. Firebase is known as backend as a service and provide backend services like database , authentications, Cloud Storage , Hosting and sort of features that backend provides.
+2. It also take care of the server side logic and heavy lifting.
+3. Using firebase 9 means more optimised and  small file size web app.
+4. It also include Modular in which a new API surface designed to facilitate tree-shaking i.e., 
+Removing of unused code to Make web app as small and fast as possible. 
+
+npm i webpack webpack-cli -D    --> Dependencies unused
+npm i firebase
