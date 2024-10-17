@@ -149,6 +149,3 @@ This series covers everything from setting up Firebase to advanced functionaliti
 - Authentication and user management
 - Subscription to real-time data
 
----
-
-Now the Table of Contents links directly to sections of the README file.
